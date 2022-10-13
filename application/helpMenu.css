@@ -1,0 +1,26 @@
+.main {
+    -fx-background-color : rgb(47,43,56);
+}
+
+.text {
+    -fx-control-inner-background : rgb(47,43,56);
+}
+
+.title {    
+    -fx-text-fill : rgb(245, 146, 0);
+}
+
+.pageTitle {
+    -fx-font-weight: bold;
+    -fx-font-size : 30px;
+    -fx-text-fill : rgb(245, 146, 0);
+}
+.button{
+    -fx-background-color: rgb(99, 154, 224);
+    -fx-background-radius: 10px;
+    
+}
+    
+.button:hover {
+    -fx-background-color: rgb(150, 163, 217);
+}

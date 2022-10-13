@@ -1,0 +1,32 @@
+.pane{
+    -fx-background-color: rgb(47, 43, 56);   
+}
+
+.button{
+-fx-background-color: rgb(99, 154, 224);
+-fx-background-radius: 10px;
+
+}
+
+.button:hover {
+    -fx-background-color: rgb(150, 163, 217);
+}
+.AnchorPane{
+    
+-fx-background-color: rgb(47,43,56);
+
+}
+.AnchorPane2{
+    -fx-background-color: rgb(96,119,203);
+    -fx-control-inner-background: rgb(47,43,56);
+    
+}
+.textField{
+    -fx-background-color: rgb(47,43,56);
+     -fx-text-fill: white;
+
+}
+.text{
+    -fx-background-color: rgb(96,119,203);
+}
+
