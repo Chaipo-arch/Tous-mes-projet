@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Pane prefHeight="585.0" prefWidth="378.0">
+         <children>
+            <TextField fx:id="display" layoutX="20.0" layoutY="13.0" prefHeight="79.0" prefWidth="269.0" />
+            <Button layoutX="20.0" layoutY="107.0" mnemonicParsing="false" onAction="#click1" text="1" />
+            <Button layoutX="63.0" layoutY="107.0" mnemonicParsing="false" onAction="#click2" text="2" />
+            <Button layoutX="100.0" layoutY="107.0" mnemonicParsing="false" onAction="#click3" text="3" />
+            <Button layoutX="20.0" layoutY="146.0" mnemonicParsing="false" onAction="#click4" text="4" />
+            <Button layoutX="63.0" layoutY="146.0" mnemonicParsing="false" onAction="#click5" text="5" />
+            <Button layoutX="100.0" layoutY="146.0" mnemonicParsing="false" onAction="#click6" text="6" />
+            <Button layoutX="20.0" layoutY="192.0" mnemonicParsing="false" onAction="#click7" text="7" />
+            <Button layoutX="63.0" layoutY="192.0" mnemonicParsing="false" onAction="#click8" text="8" />
+            <Button layoutX="100.0" layoutY="192.0" mnemonicParsing="false" onAction="#click9" text="9" />
+            <Button layoutX="157.0" layoutY="107.0" mnemonicParsing="false" onAction="#ajouter" text="+" />
+            <Button layoutX="195.0" layoutY="107.0" mnemonicParsing="false" onAction="#soustraire" text="-" />
+            <Button layoutX="165.0" layoutY="234.0" mnemonicParsing="false" onAction="#entree" prefHeight="62.0" prefWidth="125.0" text="ENTREE" />
+            <Button layoutX="232.0" layoutY="146.0" mnemonicParsing="false" onAction="#supprimer" prefHeight="25.0" prefWidth="57.0" text="SUPPR" />
+            <Button layoutX="159.0" layoutY="146.0" mnemonicParsing="false" onAction="#multiplier" text="x" />
+            <Button layoutX="195.0" layoutY="146.0" mnemonicParsing="false" onAction="#divise" text="/" />
+            <Button layoutX="161.0" layoutY="192.0" mnemonicParsing="false" onAction="#virgule" text="," />
+            <Button layoutX="193.0" layoutY="192.0" mnemonicParsing="false" onAction="#puissance" text="^" />
+            <Button layoutX="232.0" layoutY="192.0" mnemonicParsing="false" onAction="#reset" prefHeight="25.0" prefWidth="57.0" text="RESET" />
+            <Button layoutX="22.0" layoutY="234.0" mnemonicParsing="false" onAction="#click0" prefHeight="62.0" prefWidth="104.0" text="0" />
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="55.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Pictures/canard.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
